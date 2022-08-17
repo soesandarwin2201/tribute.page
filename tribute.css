@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&family=Rubik:ital,wght@0,300;1,300;1,400&display=swap');
+*{
+    margin:0;
+    padding:o;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto'sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: .895rem;
+    background-color: #ddd;
+    color:black;
+    margin: 0 auto;
+    line-height: 2.7;
+    min-height: 100vh;
+}
+
+main{
+    margin: 2rem;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+#title{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+p{
+    text-align: center;
+}
+
+#img-div{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+#image{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+#img-caption{
+    flex:0 0 50%;
+    max-width: 50%;
+}
+
+section{
+    padding: 5rem 0;
+}
+
+#tribute-info {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+li em{
+    text-align: left;
+}
+
+li{
+    margin: .2rem auto;
+    padding:1rem;
+    max-height: 100%;
+    max-width: 1280px;
+}
+
+blockquote {
+    text-align: center;
+    font-weight: 600;
+}
+
+
